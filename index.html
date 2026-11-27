@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LK MAISON. | O tempo é exclusivo. Seu estilo também.</title>
+<meta name="description" content="LK MAISON: relógios exclusivos para quem valoriza elegância, personalidade e sofisticação. Siga @lkmaison.shop no Instagram.">
+<meta property="og:title" content="LK MAISON.">
+<meta property="og:description" content="O tempo é exclusivo. Seu estilo também.">
+<meta name="theme-color" content="#000000">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"LK MAISON","description":"Relógios exclusivos","telephone":"+55 11 98160-1226","sameAs":["https://www.instagram.com/lkmaison.shop"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--fg:#fff;--mute:#b5b5b5;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit;margin:0}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font-family:'Jost',system-ui,sans-serif;font-weight:300;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid #fff;outline-offset:4px}
+.wrap{width:min(1100px,100% - 40px);margin-inline:auto}
+.hero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:96px 0 64px;position:relative;background:radial-gradient(ellipse 70% 55% at 50% 38%,#3a3a3a 0%,#161616 45%,#000 75%)}
+.top{position:absolute;top:0;left:0;right:0;padding-top:env(safe-area-inset-top,0px)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;height:76px}
+.logo{font-weight:500;letter-spacing:.06em;font-size:1.3rem}
+.ig-mini{display:flex;align-items:center;gap:.6rem;font-size:.9rem;border:1px solid #fff;padding:.5em 1.1em;border-radius:99px;transition:background .4s,color .4s}
+.ig-mini:hover{background:#fff;color:#000}
+svg.i{width:20px;height:20px;flex:none}
+.clockbox{position:relative;width:min(68vw,410px);aspect-ratio:1;margin-bottom:2.2rem}
+.clockbox::before{content:"";position:absolute;inset:-14%;background:radial-gradient(circle,rgba(255,255,255,.22),transparent 62%);animation:breathe 6s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.55}}
+#clock{position:relative;width:100%;height:100%;filter:drop-shadow(0 0 28px rgba(255,255,255,.35))}
+.bezel{animation:draw 2.6s cubic-bezier(.3,.7,.2,1) both}
+@keyframes draw{from{stroke-dashoffset:1200}to{stroke-dashoffset:0}}
+.hero h1{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2.4rem,7vw,5.2rem);line-height:1.08}
+.hero h1 em{display:block;font-weight:500;font-style:italic}
+.hero p{max-width:32rem;margin:1.4rem auto 2.4rem;color:var(--mute);font-size:1.08rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.8rem;border:1px solid #fff;padding:1.05em 2.6em;font-size:.85rem;letter-spacing:.18em;font-weight:500;background:#fff;color:#000;font-family:inherit;transition:background .4s,color .4s,transform .4s}
+.btn:hover{background:#000;color:#fff;transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:#fff}.btn.ghost:hover{background:#fff;color:#000}
+.band{border-block:1px solid #fff;overflow:hidden;white-space:nowrap;padding:1.1rem 0;font-family:'Cormorant Garamond',serif;font-size:clamp(1.3rem,3vw,2rem);font-style:italic}
+.band div{display:inline-block;animation:mq 30s linear infinite}
+@keyframes mq{to{transform:translateX(-50%)}}
+.about{background:#fff;color:#000;padding:clamp(80px,13vw,170px) 0}
+.about .wrap{max-width:900px;text-align:center}
+.about h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(1.1rem,2vw,1.4rem);letter-spacing:.02em;margin-bottom:2rem;color:#444}
+.about blockquote{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(1.6rem,3.8vw,2.7rem);line-height:1.35}
+.cta{padding:clamp(90px,14vw,180px) 0;text-align:center;background:radial-gradient(ellipse 60% 70% at 50% 50%,#2a2a2a,#000 70%)}
+.cta h2{font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2rem,5vw,3.8rem);line-height:1.15;margin-bottom:1rem}
+.cta .handle{display:block;font-weight:500;font-size:clamp(1.8rem,7vw,4.2rem);letter-spacing:.01em;margin:1.4rem 0 2.4rem;border-bottom:1px solid #fff;width:max-content;max-width:100%;margin-inline:auto;padding-bottom:.2em;transition:opacity .4s}
+.cta .handle:hover{opacity:.7}
+.row{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+footer{border-top:1px solid #444;padding:2.6rem 0}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:1.4rem;flex-wrap:wrap;color:var(--mute);font-size:.92rem}
+footer .links{display:flex;gap:1.6rem}footer a:hover{color:#fff}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;display:flex;gap:10px}
+.fab a{width:56px;height:56px;border-radius:50%;background:#fff;color:#000;display:grid;place-items:center;box-shadow:0 6px 28px rgba(255,255,255,.25);transition:transform .4s}
+.fab a:hover{transform:scale(1.1)}.fab svg{width:26px;height:26px}
+@media(max-width:640px){.ig-mini span{display:none}.ig-mini{padding:.55em}footer .wrap{flex-direction:column;text-align:center}.btn{width:100%}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.hand{transform-origin:200px 200px;transform-box:view-box}.h-min{animation:spin 60s linear infinite}.h-hr{animation:spin 720s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<div class="top"><div class="wrap"><a class="logo" href="#" aria-label="LK MAISON">LK MAISON.</a>
+<a class="ig-mini" href="https://www.instagram.com/lkmaison.shop" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor" stroke="none"/></svg><span>@lkmaison.shop</span></a></div></div>
+
+<div class="clockbox">
+<svg id="clock" viewBox="0 0 400 400" role="img" aria-label="Relógio analógico em traço fino">
+<circle class="bezel" cx="200" cy="200" r="190" fill="none" stroke="#fff" stroke-width="1.2" stroke-dasharray="1200"/>
+<circle cx="200" cy="200" r="168" fill="none" stroke="#444" stroke-width="1"/>
+<g id="ticks" stroke="#fff"></g>
+<g class="hand h-hr"><line x1="200" y1="200" x2="200" y2="120" stroke="#fff" stroke-width="3" stroke-linecap="round"/></g>
+<g class="hand h-min"><line x1="200" y1="214" x2="200" y2="62" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></g>
+<circle cx="200" cy="200" r="5" fill="#fff"/><circle cx="200" cy="200" r="2" fill="#000"/>
+<text x="200" y="272" text-anchor="middle" fill="#fff" font-family="Jost,sans-serif" font-size="13" letter-spacing="5">LK MAISON</text>
+</svg></div>
+
+<h1>O tempo é exclusivo.<em>Seu estilo também.</em></h1>
+<p>Relógios exclusivos, selecionados para quem entende que o verdadeiro luxo está nos detalhes.</p>
+<a class="btn" href="https://www.instagram.com/lkmaison.shop" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor" stroke="none"/></svg>VER NO INSTAGRAM</a>
+</section>
+
+<div class="band" aria-hidden="true"><div id="mq"></div></div>
+
+<section class="about"><div class="wrap">
+<h2>Sobre a LK MAISON</h2>
+<blockquote>A LK MAISON nasceu para quem entende que o verdadeiro luxo está nos detalhes. Trabalhamos com relógios exclusivos, selecionados para pessoas que valorizam elegância, personalidade e sofisticação. Mais do que marcar as horas, cada peça representa um estilo.</blockquote>
+</div></section>
+
+<section class="cta"><div class="wrap">
+<h2>As peças estão no nosso Instagram.</h2>
+<p style="color:var(--mute)">Novidades e lançamentos são publicados primeiro por lá.</p>
+<a class="handle" href="https://www.instagram.com/lkmaison.shop" target="_blank" rel="noopener">@lkmaison.shop</a>
+<div class="row">
+<a class="btn" href="https://www.instagram.com/lkmaison.shop" target="_blank" rel="noopener">SEGUIR NO INSTAGRAM</a>
+<a class="btn ghost" id="wa1" target="_blank" rel="noopener">FALAR NO WHATSAPP</a>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">
+<span class="logo" style="color:#fff">LK MAISON.</span>
+<div class="links"><a href="https://www.instagram.com/lkmaison.shop" target="_blank" rel="noopener">@lkmaison.shop</a><a id="wa2" target="_blank" rel="noopener">(11) 98160-1226</a></div>
+<span>© <span id="ano"></span> LK MAISON. Todos os direitos reservados.</span>
+</div></footer>
+
+<div class="fab">
+<a id="wa3" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.600 15L2 22l5.100-1.300A10 10 0 1 0 12 2zm0 18.200a8.200 8.200 0 0 1-4.200-1.200l-.3-.2-3 .8.8-2.900-.2-.3A8.200 8.200 0 1 1 12 20.200zm4.500-6.100c-.2-.1-1.500-.7-1.700-.8s-.4-.1-.6.100-.6.800-.8 1-.3.200-.6.100a6.700 6.700 0 0 1-3.300-2.900c-.3-.4.300-.4.700-1.300.1-.2 0-.3 0-.5l-.8-1.900c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.300 3.100 3.100 0 0 0-1 2.300 5.400 5.400 0 0 0 1.100 2.800 12.300 12.300 0 0 0 4.700 4.100c1.800.8 2.500.8 3.400.7a2.900 2.900 0 0 0 1.900-1.300 2.300 2.300 0 0 0 .2-1.300c-.1-.1-.2-.2-.4-.3z"/></svg></a>
+<a href="https://www.instagram.com/lkmaison.shop" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.500" cy="6.500" r="1" fill="currentColor" stroke="none"/></svg></a>
+</div>
+
+<script>
+var WHATS="5511981601226",u="https://wa.me/"+WHATS+"?text="+encodeURIComponent("Olá! Vim pelo site da LK MAISON.");
+["wa1","wa2","wa3"].forEach(function(i){document.getElementById(i).href=u});
+document.getElementById("ano").textContent=new Date().getFullYear();
+var t="",n="",m="";
+for(var i=0;i<60;i++){var a=i*6*Math.PI/180,b=i%5===0,r1=b?150:158,r2=166;
+t+='<line x1="'+(200+r1*Math.sin(a)).toFixed(1)+'" y1="'+(200-r1*Math.cos(a)).toFixed(1)+'" x2="'+(200+r2*Math.sin(a)).toFixed(1)+'" y2="'+(200-r2*Math.cos(a)).toFixed(1)+'" stroke-width="'+(b?2:.6)+'"/>'}
+document.getElementById("ticks").innerHTML=t;
+for(var k=0;k<2;k++)for(var j=0;j<6;j++)m+="O tempo é exclusivo. Seu estilo também.&nbsp;&nbsp;&nbsp;&nbsp;LK MAISON.&nbsp;&nbsp;&nbsp;&nbsp;";
+document.getElementById("mq").innerHTML=m;
+</script>
+</body>
+</html>
